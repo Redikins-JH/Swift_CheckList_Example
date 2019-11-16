@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		E8F05496237FC4B3000F041B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F05495237FC4B3000F041B /* AppDelegate.swift */; };
 		E8F05498237FC4B3000F041B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F05497237FC4B3000F041B /* SceneDelegate.swift */; };
-		E8F0549A237FC4B3000F041B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F05499237FC4B3000F041B /* ViewController.swift */; };
 		E8F0549D237FC4B3000F041B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0549B237FC4B3000F041B /* Main.storyboard */; };
 		E8F0549F237FC4B4000F041B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8F0549E237FC4B4000F041B /* Assets.xcassets */; };
 		E8F054A2237FC4B4000F041B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F054A0237FC4B4000F041B /* LaunchScreen.storyboard */; };
+		E8F054AC237FCB3C000F041B /* CheckListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F054AB237FCB3C000F041B /* CheckListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8F05492237FC4B3000F041B /* iOS_Apprentice_chapter9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Apprentice_chapter9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F05495237FC4B3000F041B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F05497237FC4B3000F041B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8F05499237FC4B3000F041B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8F0549C237FC4B3000F041B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8F0549E237FC4B4000F041B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8F054A1237FC4B4000F041B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8F054A3237FC4B4000F041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F054AB237FCB3C000F041B /* CheckListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				E8F05495237FC4B3000F041B /* AppDelegate.swift */,
 				E8F05497237FC4B3000F041B /* SceneDelegate.swift */,
-				E8F05499237FC4B3000F041B /* ViewController.swift */,
 				E8F0549B237FC4B3000F041B /* Main.storyboard */,
 				E8F0549E237FC4B4000F041B /* Assets.xcassets */,
 				E8F054A0237FC4B4000F041B /* LaunchScreen.storyboard */,
 				E8F054A3237FC4B4000F041B /* Info.plist */,
+				E8F054AB237FCB3C000F041B /* CheckListTableViewController.swift */,
 			);
 			path = iOS_Apprentice_chapter9;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8F0549A237FC4B3000F041B /* ViewController.swift in Sources */,
 				E8F05496237FC4B3000F041B /* AppDelegate.swift in Sources */,
 				E8F05498237FC4B3000F041B /* SceneDelegate.swift in Sources */,
+				E8F054AC237FCB3C000F041B /* CheckListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
